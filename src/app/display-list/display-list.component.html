@@ -1,0 +1,6 @@
+<div class="center">
+  <button type="button" name="button" (click)='loadUserSeqFiles()'>loadList</button>
+  <div class="list" *ngFor = "let item of list" (click)='displayItem(item.fileName)'>
+    {{item.fileName}}
+  </div>
+</div>
