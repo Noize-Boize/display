@@ -1,3 +1,7 @@
+/*
+  This class defines a custom model for a saved project from the sequencer sampler.
+*/
+
 export class File {
 
   public id: string;

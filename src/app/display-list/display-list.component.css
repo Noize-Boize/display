@@ -1,0 +1,7 @@
+.list{
+  background-color: lightblue;
+}
+
+.list:hover{
+  background-color: #877372;
+}
